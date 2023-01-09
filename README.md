@@ -10,8 +10,8 @@ Este proyecto contiene los siguientes archivos:
 
 Para el desarrollo de este proyecto he empleado el editor **Visual Studio Code**
 Este proyecto ha sido construido con:
-*HTML
-*CSS
+* HTML
+* CSS
 
 Este obra está bajo una licencia de **Creative Commons Reconocimiento-NoComercial-SinObraDerivada 4.0 Internacional.**
 
