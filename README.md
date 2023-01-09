@@ -13,6 +13,8 @@ Este proyecto ha sido construido con:
 * HTML
 * CSS
 
+[Este link](https://github.com/SergioMonto77/MaquetacionFLEX_Practica01c/blob/main/mflexP01c_MontoroLoperaSergio/maquetacionFLEX_Practica01c.html) lleva a la página principal
+
 Este obra está bajo una licencia de **Creative Commons Reconocimiento-NoComercial-SinObraDerivada 4.0 Internacional.**
 
 ### Autores: Sergio Montoro Lopera
