@@ -1,0 +1,146 @@
+/* BOX-SIZING para calcular directamente todas las dimensiones de las cajas */
+*{
+    box-sizing: border-box;
+}
+
+
+/* RESETEO LIMITADO DE PROPIEDADES margen y padding 0*/
+body, h1, h2, h3, h4, h5, h6, p {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* ======================================================>Cabecera */
+header{
+    text-align: center;
+}
+
+h1{
+    color:lightcoral;
+}
+
+h4{
+    color: lightseagreen;
+}
+
+/* ======================================================>Menú de navegación */
+nav ul{
+    list-style: none;
+}
+
+nav ul li a{
+    color:lightcoral;
+    text-decoration: none;
+    font-size: 2vw;
+}
+
+/*=================================================================>Fuentes empleadas*/
+.kolker{
+    font-family: 'Kolker Brush', cursive;
+}
+
+.lobster{
+    font-family: 'Lobster', cursive;
+}
+
+
+/* ======================================================>Cuerpo */
+figure{
+    width: 20%;
+    border: 1px solid black;
+    border-radius: 5%;
+    padding: 0.7% 1.5%;
+    margin: 2%;
+}
+
+figure figcaption{
+    color:lightcoral;
+    text-align: center;
+}
+
+figure img{
+    width: 100%;
+    border-radius: 5%;
+}
+
+main nav{
+    display: flex;
+}
+
+/*------------------------------------------seccion uno*/
+section#uno{
+    display:flex;
+    align-items: stretch;
+}
+
+section#uno nav{
+    flex-grow: 1;
+}
+
+section#uno figure#fig1{
+    flex-grow: 4;
+}
+
+section#uno figure#fig2{
+    flex-grow: 2;
+}
+
+
+/*------------------------------------------seccion dos*/
+section#dos{
+    display:flex;
+    justify-content: flex-end;
+    align-items: stretch;
+}
+
+section#dos figure#fig3{
+    flex-basis: 1;
+    flex-basis: 1;
+}
+
+section#dos figure#fig4{
+    flex-basis: 1;
+    flex-basis: 1;
+}
+
+section#dos figure#fig5{
+    flex-basis: 1;
+    flex-basis: 1;
+}
+
+
+section#dos figure img{
+    height: 600px;
+}
+
+
+
+/* ======================================================>Pie de página */
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+footer section{
+    width: 33%;
+}
+
+footer section{
+    margin: 0.8%;
+    margin-left: 0.8%;;
+}
+
+footer section#ulti{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0.5%;
+    margin-right: 0.8%;;
+}
+
+footer section img{
+    width: 8%;
+    height: 88%;
+} 
+
+
